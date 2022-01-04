@@ -17,7 +17,7 @@ body, .main-container {
 }
 
 .main-wrapper {
-  background: #DE3D4F;
+  background: #4E0C80;
   padding: 5px 0;
   min-height: 890px;
   width: 1300px;
@@ -49,18 +49,18 @@ body, .main-container {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #FFBABA;
+  background: #4E3D80;
 }
 
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #CE6363;
+  background: #4E2A60;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #BD4A4A;
+  background: #4E2D80;
 }
 
 

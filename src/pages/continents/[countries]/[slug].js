@@ -1,10 +1,10 @@
-import React, {useContext, useEffect, useState} from 'react'
-import {useRouter} from 'next/router'
+import React, { useContext, useEffect, useState } from 'react'
+import { useRouter } from 'next/router'
 import Head from 'next/head'
 
-import {RadioAppData} from '../../../utils/contextapi/context'
-import {getData} from '../../../utils/apis/api'
-import {checkIfExists, findData, formatText, sliceData, sortByVote} from '../../../utils/common/helpers'
+import { RadioAppData } from '../../../utils/contextapi/context'
+import { getData } from '../../../utils/apis/api'
+import { checkIfExists, findData, formatText, sliceData, sortByVote } from '../../../utils/common/helpers'
 
 import Categories from '../../../components/Dashboard/Categories/Categories'
 import Footer from '../../../components/Footer/Footer'
@@ -16,10 +16,10 @@ import TopNavBar from '../../../components/TopNavBar/TopNavBar'
 
 function CountryRadio() {
   const router = useRouter()
-  const {radiodata, setradiodata} = useContext(RadioAppData)
+  const { radiodata, setradiodata } = useContext(RadioAppData)
   const [radioCountry, setCountry] = useState({
     isSet: false,
-    lists: {}, 
+    lists: {},
     page: '',
     radios: {},
     textHeader: '',
@@ -43,20 +43,20 @@ function CountryRadio() {
 
   const continent = router.query.countries
   const country = router.query.slug
-  
-  if(radiodata.isSet) {
+
+  if (radiodata.isSet) {
     // check if continent query is a valid value
     const isValidCont = checkIfExists(continent, radiodata.data.continents)
-    if(isValidCont) {
+    if (isValidCont) {
       // find the group of data from the continents query
       const continentLists = findData(continent, radiodata.data.continents)
       // check if the country value is a valid value
       const isValidCountry = checkIfExists(country, continentLists.lists)
-      if(isValidCountry) {
+      if (isValidCountry) {
         (async function () {
           // query data and sort data according to its popularity
           let stations = sortByVote(await getData('country', country))
-          if(!radioCountry.isSet) {
+          if (!radioCountry.isSet) {
             setCountry({
               isSet: true,
               lists: stations,
@@ -93,22 +93,22 @@ function CountryRadio() {
       <main className='content-center main-wrapper'>
         <TopNavBar />
         <div className="content-wrapper">
-          <SideBar/>
+          <SideBar />
           <div className='dashboard-container'>
             <TopMenu />
-            { radioCountry.isSet ? 
-              <Radios 
-                click={(val)=>getNewData(val)}
+            {radioCountry.isSet ?
+              <Radios
+                click={(val) => getNewData(val)}
                 likeBtn='like'
                 radios={radioCountry.radios}
                 textHeader={radioCountry.textHeader}
                 total={radioCountry.lists.length}
-                totalpages={radioCountry.totalpages}/> : null }
-            { radioCountry.isSet ? <Categories /> : null }
+                totalpages={radioCountry.totalpages} /> : null}
+            {radioCountry.isSet ? <Categories /> : null}
           </div>
         </div>
         <Footer />
-      </main> 
+      </main>
     </div>
   )
 }

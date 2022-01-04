@@ -1,6 +1,6 @@
 
 .category-radio {
-  background: linear-gradient(101.25deg, #E06876 0%, #BA0D41 98.91%);
+  background: linear-gradient(101.25deg, #4E0C80 0%, #0093C9 98.91%);
   margin: 5px 0;
   min-height: 315px;
   width: 100%;
@@ -14,7 +14,7 @@
 }
 
 .category-item {
-  background: linear-gradient(90deg, #72122F 0%, #B74754 100%);
+  background: linear-gradient(90deg, #4E0C80 0%, #0093C9 100%);
   color: #DBDBDB;
   flex-direction: row;
   float: left;
@@ -28,7 +28,7 @@
 }
 
 .category-item:hover {
-  background: linear-gradient(90deg, #8D2A48 0%, #BF4E5B 100%);
+  background: linear-gradient(90deg, #4E0C80 0%, #0093C9 100%);
   cursor: pointer;
   transition: all 0.15s ease-in
 }

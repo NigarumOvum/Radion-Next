@@ -1,4 +1,4 @@
-import {setName} from '../common/helpers'
+import { setName } from '../common/helpers'
 
 // this function will sort the category 
 // and will set the text to capitalize the first letter

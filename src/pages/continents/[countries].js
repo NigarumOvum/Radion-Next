@@ -1,9 +1,9 @@
-import React, {useContext, useEffect} from 'react'
-import {useRouter} from 'next/router'
+import React, { useContext, useEffect } from 'react'
+import { useRouter } from 'next/router'
 
-import {checkIfExists} from '../../utils/common/helpers'
-import {getData} from '../../utils/apis/api'
-import {RadioAppData} from '../../utils/contextapi/context'
+import { checkIfExists } from '../../utils/common/helpers'
+import { getData } from '../../utils/apis/api'
+import { RadioAppData } from '../../utils/contextapi/context'
 
 import Countries from '../../components/Dashboard/Countries/Countries'
 import Categories from '../../components/Dashboard/Categories/Categories'
@@ -17,7 +17,7 @@ import TopNavBar from '../../components/TopNavBar/TopNavBar'
 
 function Country() {
   let selected;
-  const {radiodata, setradiodata} = useContext(RadioAppData)
+  const { radiodata, setradiodata } = useContext(RadioAppData)
   const router = useRouter()
 
   useEffect(() => {
@@ -33,11 +33,11 @@ function Country() {
   // assign query value
   const query = router.query.countries
 
-  if(radiodata.isSet) {
+  if (radiodata.isSet) {
     // check if the query value is valid
     const queryExists = checkIfExists(query, radiodata.data.continents)
-      
-    if(queryExists) {
+
+    if (queryExists) {
       const filteredQuery = query.split('-').join(' ')
       const lists = radiodata.data.continents.filter(continent => {
         return continent.name.toLowerCase() === filteredQuery
@@ -56,18 +56,18 @@ function Country() {
         <link rel="icon" href="/images/logo.ico" />
         <Meta />
       </Head>
-        <main className='content-center main-wrapper'>
-          <TopNavBar />
-          <div className="content-wrapper">
-            <SideBar/>
-            
-            <div className='dashboard-container'>
-              <TopMenu />
-              { selected && <Countries data={selected}/> }
-              <Categories />
-            </div>
+      <main className='content-center main-wrapper'>
+        <TopNavBar />
+        <div className="content-wrapper">
+          <SideBar />
+
+          <div className='dashboard-container'>
+            <TopMenu />
+            {selected && <Countries data={selected} />}
+            <Categories />
           </div>
-          <Footer />
+        </div>
+        <Footer />
       </main>
     </div>
   )

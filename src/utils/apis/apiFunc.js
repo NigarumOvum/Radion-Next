@@ -1,6 +1,6 @@
 
-import {fetchData} from './fetchData'
-import {sortData} from './helpers'
+import { fetchData } from './fetchData'
+import { sortData } from './helpers'
 
 import genList from '../data/genre.json'
 import listOfCont from '../data/countries.json'
@@ -14,7 +14,7 @@ export const getByCountry = async (country) => {
 
 export const getByGenre = async (genre) => {
   const contData = await fetchData(`stations/bytagexact/${genre}`)
-  return contData 
+  return contData
 }
 
 export const getStation = async (name) => {
@@ -29,7 +29,7 @@ export const home = async () => {
   let categories = sortData(listOfCat.categories, catData, false)
   let topMenu = sortData(top.topMenu, catData, false)
   let genre = sortData(genList.genlist, catData, false)
-  return {continents, categories, topMenu, genre}
+  return { continents, categories, topMenu, genre }
 }
 
 const removeEmpty = (continents) => {
