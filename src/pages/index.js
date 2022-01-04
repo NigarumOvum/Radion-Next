@@ -40,7 +40,7 @@ export default function Home({data}) {
   return (
     <div className='content-center main-container'>
       <Head>
-        <title>Radio Live | Home Page</title>
+        <title>Radion - Online Live Radio Stations | Home Page</title>
         <link rel="icon" href="/images/logo.ico" />
         <Meta />
       </Head>

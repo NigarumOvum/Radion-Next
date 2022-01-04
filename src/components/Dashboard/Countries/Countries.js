@@ -24,7 +24,7 @@ function Countries(props) {
                 <div className="content-center country-name">
                   <h2 className='text-2 font-1'>{list.name}</h2>
                   <div className='content-center country-stations'>
-                    <span className='total-station text-2 font-7'>Stations</span>
+                    <span className='total-station text-2 font-7'>Staciones</span>
                     <span className='text-2 totals font-4'>{list.stationcount}</span>
                   </div>
                 </div>
@@ -42,7 +42,7 @@ function Countries(props) {
         <span className='font-2'>{props.data.name}</span>
         <span>
           <i className='font-2 totalStations'>
-            {getTotal(props.data.lists)} Stations</i>
+            {getTotal(props.data.lists)} Staciones</i>
         </span>
       </div>
       <div className="country-list-wrapper">

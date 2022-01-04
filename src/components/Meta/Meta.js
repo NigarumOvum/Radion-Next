@@ -5,7 +5,7 @@ function Meta() {
     <>
       <link rel="apple-touch-icon" href="/images/meta-logo.ico" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <meta name="author" content="Aiman Adlawan"/>
+      <meta name="author" content="Brealy Padron R"/>
       <meta name="description" content="Listen to any of your favorite radio stations live from all over the world with thousands of available channels. A project by Aiman Adlawan" />
 
       <meta property="og:title" content="Radio Live | Home Page" />

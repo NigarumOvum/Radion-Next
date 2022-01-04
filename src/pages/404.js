@@ -24,7 +24,7 @@ export default function NotFound() {
   return (
     <div className='content-center main-container'>
       <Head>
-        <title>Radio Live | Not Found</title>
+        <title>Radion - Online Live Radio Stations | Not Found </title>
         <link rel="icon" href="/images/logo.ico" />
         <Meta />
       </Head>

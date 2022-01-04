@@ -31,7 +31,7 @@ function Radio(props) {
           <div 
             className="content-center listen-btn-wrapper"
             onClick={()=> openWindow(props.station.name)}>
-            <span className='text-2 font-6'>Listen Now</span>
+            <span className='text-2 font-6'>Escuchar Ahora</span>
             <img 
               alt="play icon"
               src="/images/Play.svg" />

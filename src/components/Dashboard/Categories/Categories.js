@@ -29,7 +29,7 @@ function Categories() {
   return (
     <div className="category-radio">
       <div className='content-center menu-header text-3'>
-        <span className='font-2'>Radio Categories</span>
+        <span className='font-2'>Categorias</span>
       </div>
       <div className="category-list-wrapper">
         <ul className='category-lists'>

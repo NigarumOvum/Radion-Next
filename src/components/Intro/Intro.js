@@ -34,10 +34,10 @@ function Intro() {
       <span>{''}</span>
       <div className='content-center intro-wrapper'>
         <img src="/images/logo-big.png" alt="radio-live image"/>
-        <span className='text-3'>Listen to any FM Station from all over the world.</span>
-        <span className='text-3 loading'>Loading. . .</span>
+        <span className='text-3'>Escucha cualquier stacion radion FM Station de cualquier parte del mundo</span>
+        <span className='text-3 loading'>Cargando. . .</span>
       </div>
-      <span className='text-3 copy-right'>&#9400; Aiman Adlawan 2020</span>
+      <span className='text-3 copy-right'>&#9400; Brealy Padron Rodriguez - @2021</span>
     </div> 
   )
 }

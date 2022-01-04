@@ -32,7 +32,7 @@ function TopMenu() {
           <a>
             <li className='content-center top-menu-item text-3'>
               <img src="/images/My Favorites.svg" alt=""/>
-              <span className='font-5'>My Favorites</span>
+              <span className='font-5'>Mis Favoritos</span>
             </li>
           </a>
         </Link>

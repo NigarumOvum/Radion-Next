@@ -25,7 +25,7 @@ function Countries(props) {
                 <div className="content-center country-name">
                   <h2 className='text-2 font-1'>{b.name}</h2>
                   <div className='content-center country-stations'>
-                    <span className='total-station text-2 font-7'>Stations</span>
+                    <span className='total-station text-2 font-7'>Staciones</span>
                     <span className='text-2 totals font-4'>{b.stationcount}</span>
                   </div>
                 </div>

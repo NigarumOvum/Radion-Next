@@ -19,14 +19,14 @@ function Radios(props) {
         <span className='font-2'>{props.textHeader}</span>
         <span>
           <i className='font-2 totalStations'>
-            {formtNum(props.total)} Stations</i>
+            {formtNum(props.total)} Staciones</i>
         </span>
       </div>
       <div className="radio-wrapper">
         {
           props.total === 0 ? 
             <div className="content-center radio-wrapper">
-              <h3 className='text-2 font-1 no-results'>You don't have any liked stations.</h3>
+              <h3 className='text-2 font-1 no-results'>Aun no tienes estaciones favoritas.</h3>
             </div> : stations
         }
       </div>

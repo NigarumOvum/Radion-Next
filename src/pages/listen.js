@@ -25,7 +25,7 @@ function Listen(data) {
   return (
     <div className="content-center listen-container">
       <Head>
-        <title>Radio Live | Listen</title>
+        <title>Radion - Online Live Radio Stations | Listening</title>
         <link rel="icon" href="/images/logo.ico" />
         <Meta />
       </Head>
@@ -44,7 +44,7 @@ function Listen(data) {
         </div>
 
         <div className="content-center r-details">
-          {ext === 'nodata' ? <h2 className='text-2 font-1'>Radio not found</h2> : 
+          {ext === 'nodata' ? <h2 className='text-2 font-1'>Radio no encontrada</h2> : 
           ( <>
             <img src={radio.favicon ? radio.favicon : '/images/logo-big.png'} alt=""/>
               <h2 className='text-3 font-4'>{setName(radio.name)}</h2>
@@ -84,7 +84,7 @@ function Listen(data) {
           <div className='content-center footer-icons'>
             {icons}
           </div>
-          <span className='text-2 font-7'>&#9400; Aiman Adlawan 2020</span>
+          <span className='text-2 font-7'>&#9400; Brealy Padron Rodriguez - @2021</span>
         </footer>
 
       </div>
