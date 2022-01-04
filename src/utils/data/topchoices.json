@@ -1,0 +1,16 @@
+{
+  "topMenu": [
+    {
+      "name": "Hit Radio",
+      "lists": ["top 40", "hits", "classic hits", "charts", "contemporary hits", "adult hits"]
+    }, 
+    {
+      "name": "News Radio",
+      "lists": ["noticias", "tv", "information", "news talk", "news", "local news", "talk radio", "politics", "mediaset", "bbc", "live"]
+    }, 
+    {
+      "name": "Sports Radio",
+      "lists": ["live sports", "tv", "sport", "sports news"]
+    }
+  ]
+}

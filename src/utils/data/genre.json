@@ -1,0 +1,8 @@
+{
+  "genlist": [
+    {
+      "name": "genre",
+      "lists": ["jazz", "indie", "hiphop", "pop", "reggaeton", "classical", "blues", "country", "reggae", "electronic"]
+    }
+  ]
+}

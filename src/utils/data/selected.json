@@ -1,0 +1,192 @@
+[
+  {
+    "favicon": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Franceinfo.svg/330px-Franceinfo.svg.png",
+    "homepage": "https://www.francetvinfo.fr/",
+    "country": "France",
+    "state": "",
+    "url": "http://direct.franceinfo.fr/live/franceinfo-midfi.mp3",
+    "url_resolved": "http://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "name": "France Info"
+  },
+  {
+    "favicon": "http://www.rac1.cat/rsc/images/logo.jpg",
+    "homepage": "http://rac1.org/",
+    "country": "Spain",
+    "state": "Barcelona",
+    "url": "http://streaming3.radiocat.net:80/",
+    "url_resolved": "https://streaming.rac1.cat/",
+    "name": "RAC1"
+  },
+  {
+    "favicon": "https://www.srf.ch/extension/srf_shared/design/standard/images/logos/srflogo.png",
+    "homepage": "https://www.srf.ch/radio-srf-3",
+    "country": "Switzerland",
+    "state": "Switzerland",
+    "url": "http://stream.srg-ssr.ch/drs3/aacp_32.m3u",
+    "url_resolved": "http://stream.srg-ssr.ch/m/drs3/aacp_32",
+    "name": "Radio SRF 3"
+  },
+  {
+    "favicon": "https://mytuner.global.ssl.fastly.net/media/tvos_radios/cjqfbpl6lyyn.png",
+    "homepage": "http://80sradio.co.uk",
+    "country": "United Kingdom of Great Britain and Northern Irela",
+    "state": "London",
+    "url": "https://samcloud.spacial.com/api/listen?sid=111415&rid=194939&f=mp3,any&br=128000,any&m=sc",
+    "url_resolved": "http://14833.live.streamtheworld.com/SAM03AAC226_SC",
+    "name": "#1980s Zoom"
+  },
+  {
+    "favicon": "http://www.jcbasimul.com/wordpress/wp-content/uploads/2015/06/104-e3-88-b1-e3-82-b3-e3-83-9f-e3-83-a5-e3-83-8b-e3-83-86-e3-82-a3-e3-82-a8-e3-83-95-e3-82-a8-e3-83-a0-e4-b8-8b-e9-96-a2.jpg",
+    "homepage": "http://www.c-fm.co.jp/",
+    "country": "Japan",
+    "state": "",
+    "url": "http://musicbird.leanstream.co/JCB084-MP3",
+    "url_resolved": "http://musicbird.leanstream.co/JCB084-MP3",
+    "name": "Come On! FM (カモンエフエム, JOZZ8AE-FM, 76.4 MHz, Shimonoseki, Yamaguchi)"
+  },
+  {
+    "favicon": "http://www.abc.net.au/triplej/img/meta/triplej.jpg",
+    "homepage": "http://www.abc.net.au/triplej/",
+    "country": "Australia",
+    "state": "",
+    "url": "http://live-radio01.mediahubaustralia.com/2TJW/mp3/;stream.nsv",
+    "url_resolved": "http://live-radio01.mediahubaustralia.com/2TJW/mp3/;stream.nsv",
+    "name": "ABC Triple J (MP3)"
+  },
+  {
+    "favicon": "http://liveam.tv/img/2494.jpg",
+    "homepage": "http://www.europaplus.ru/",
+    "country": "Russia",
+    "state": "Moscow",
+    "url": "http://ep256.hostingradio.ru:8052/europaplus256.mp3",
+    "url_resolved": "http://ep256.hostingradio.ru:8052/europaplus256.mp3",
+    "name": "Europa Plus"
+  },
+  {
+    "favicon": "http://www.meradio.sg/api/blob/10711308/ee185c9e9bdee0eda9e4d1535d2484cd/oli968fm-logoImage.png",
+    "homepage": "http://www.meradio.sg/radio/oli968",
+    "country": "Singapore",
+    "state": "Singapore",
+    "url": "http://playerservices.streamtheworld.com/api/livestream-redirect/OLI968FMAAC.aac",
+    "url_resolved": "http://19183.live.streamtheworld.com:80/OLI968FMAAC.aac",
+    "name": "Oli 968 Radio"
+  },
+  {
+    "favicon": "https://lapfoxradio.com//apple-touch-icon-180x180.png",
+    "homepage": "https://lapfoxradio.com/",
+    "country": "Canada",
+    "state": "",
+    "tags": "electronic,multi genre,320kbps,furry",
+    "url": "https://lapfoxradio.com/lapfox_radio.pls",
+    "url_resolved": "https://radio.lapfoxradio.com/radio/8000/stream-ogg-320.ogg",
+    "name": "Lapfox Radio"
+  },
+  { 
+    "favicon": "https://tingfm.com/favicon.ico",
+    "homepage": "https://tingfm.com/radio/976",
+    "country": "China",
+    "state": "",
+    "url": "https://lhttp.qingting.fm/live/15318146/64k.mp3",
+    "url_resolved": "https://lhttp.qingting.fm/live/15318146/64k.mp3",
+    "name": "90.7mixfm"
+  },
+  {
+    "favicon": "https://listen.moe/public/images/icons/apple-touch-icon-kpop.png",
+    "homepage": "https://listen.moe/kpop",
+    "country": "South Korea",
+    "state": "",
+    "url": "https://listen.moe/kpop/stream",
+    "url_resolved": "https://listen.moe/kpop/stream",
+    "name": "Listen.moe Kpop"
+  },
+  {
+    "favicon": "https://radiomaximadelperu.blogspot.com/favicon.ico",
+    "homepage": "http://radiomaximadelperu.blogspot.com",
+    "country": "Peru",
+    "state": "Lima",
+    "url": "http://stream.zeno.fm/yxwg54nyg3quv",
+    "url_resolved": "http://node-03.zeno.fm/yxwg54nyg3quv?rj-ttl=5&rj-tok=AAABdS0JsD0AZQDF7tng-zp5HQ",
+    "name": "RADIO MAXIMA  FM"
+  },
+  {
+    "favicon": "https://www.easyrock.com.ph/wp-content/themes/easy/images/logo.png",
+    "homepage": "https://www.easyrock.com.ph/",
+    "country": "Philippines",
+    "state": "",
+    "url": "https://jegala00.radioca.st/;",
+    "url_resolved": "https://jegala00.radioca.st/;",
+    "name": "96.3 Easy Rock Pilipinas"
+  },
+  {
+    "favicon": "http://www.redglobe.org/images/Radio-TV/fm-la-tribu.png",
+    "homepage": "http://fmlatribu.com/",
+    "country": "Argentina",
+    "state": "Buenos Aires",
+    "url": "http://vivo.fmlatribu.com/latribu.mp3",
+    "url_resolved": "http://vivo.fmlatribu.com/latribu.mp3",
+    "name": "La Tribu FM 88.7"
+  },
+  {
+    "favicon": "http://imgs.sapo.pt/radiosonlineao/content/img/radio_escola.jpg",
+    "homepage": "http://radios.sapo.ao/radio-escola",
+    "country": "Angola",
+    "state": "",
+    "url": "http://radios.vpn.sapo.pt/AO/radio1.mp3",
+    "url_resolved": "https://radios.vpn.sapo.pt/AO/radio1.mp3",
+    "name": "Radio Escola 88.5 FM"
+  },
+  {
+    "favicon": "http://clubfm.ae/img/logo.png",
+    "homepage": "http://clubfm.ae/",
+    "country": "United Arab Emirates",
+    "state": "Dubai",
+    "url": "http://provisioning.streamtheworld.com/pls/CLUBFMUAEAAC.pls",
+    "url_resolved": "http://21223.live.streamtheworld.com:3690/CLUBFMUAEAAC_SC",
+    "name": "Club FM 99.6 Dubai"
+  },
+   {
+    "favicon": "https://www.radioparadise.com/favicon.ico",
+    "homepage": "https://www.radioparadise.com/",
+    "country": "United States of America",
+    "state": "California",
+    "url": "http://stream-uk1.radioparadise.com/aac-320",
+    "url_resolved": "http://stream-uk1.radioparadise.com/aac-320",
+    "name": "Radio Paradise (320k)"
+  },
+  {
+    "favicon": "http://sonjasmith-funerals.co.za///wp-content/uploads/2014/08/jacarandafm_300.png",
+    "homepage": "https://www.jacarandafm.com",
+    "country": "South Africa",
+    "state": "South Africa",
+    "url": "https://edge.iono.fm/xice/jacarandafm_live_medium.aac",
+    "url_resolved": "https://live.jacarandafm.com/jacarandalow.aac",
+    "name": "Jacaranda FM"
+  },
+  {
+    "favicon": "http://www.rockradioonlinemexico.com/wp-content/uploads/2016/10/rrom-logo-vector-1.png",
+    "homepage": "http://www.rockradioonlinemexico.com/",
+    "country": "Mexico",
+    "state": "",
+    "url": "http://playerservices.streamtheworld.com/pls/SAM07AAC286.pls",
+    "url_resolved": "http://15913.live.streamtheworld.com/SAM07AAC286_SC",
+    "name": "Rock Radio Online Mexico"
+  },
+  {
+    "favicon": "https://lh4.ggpht.com/1wkXSH2IUHQfvtsXh0boaH8w-WaJlAH7sUiS9mPOJl6kCs21AbrfjqaZkXqXKVqx1A=w300",
+    "homepage": "http://www.radiomasr.net/",
+    "country": "Egypt",
+    "state": "Cairo",
+    "url": "http://streaming.radio.co/scc13a6b96/listen",
+    "url_resolved": "http://streaming.radio.co/scc13a6b96/listen",
+    "name": "Radio Masr 88.7"
+  },
+  {
+    "favicon": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/FM4.svg/261px-FM4.svg.png",
+    "homepage": "http://fm4.orf.at/",
+    "country": "Austria",
+    "state": "Austria",
+    "url": "http://mp3stream1.apasf.apa.at:8000/;stream",
+    "url_resolved": "http://orf-live.ors-shoutcast.at/fm4-q2a",
+    "name": "ORF FM4"
+  } 
+]

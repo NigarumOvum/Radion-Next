@@ -1,0 +1,68 @@
+
+.category-radio {
+  background: linear-gradient(101.25deg, #E06876 0%, #BA0D41 98.91%);
+  margin: 5px 0;
+  min-height: 315px;
+  width: 100%;
+}
+
+.category-radio .menu-header {
+  height: 50px;
+  justify-content: flex-start;
+  padding-left: 5px;
+  width: calc(100% - 5px);
+}
+
+.category-item {
+  background: linear-gradient(90deg, #72122F 0%, #B74754 100%);
+  color: #DBDBDB;
+  flex-direction: row;
+  float: left;
+  height: 48px;
+  justify-content: space-between;
+  margin: 0 2.5px; 
+  margin-bottom: 5px;
+  padding: 0 20px;
+  transition: all 0.15s ease-in;
+  width: calc(50% - 45px);
+}
+
+.category-item:hover {
+  background: linear-gradient(90deg, #8D2A48 0%, #BF4E5B 100%);
+  cursor: pointer;
+  transition: all 0.15s ease-in
+}
+
+.category-item:active {
+  transform: scale(0.92);
+  transition: all 0.1s ease-in
+}
+
+.category-name {
+  flex-direction: row;
+  letter-spacing: -0.03em;
+}
+
+.category-name img {
+  height: 28px;
+  margin-right: 3px;
+  width: 28px;
+}
+
+.category-station {
+  background: #691D34;
+  border-radius: 3px;
+  color: #00DBE9;
+  height: 25px;
+  line-height: 25px;
+  padding-right: 5px;
+  text-align: right;
+  width: 50px;
+  
+}
+
+@media (max-width: 768px) {
+  .category-radio {
+    display: none;
+  }
+}

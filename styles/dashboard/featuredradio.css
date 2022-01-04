@@ -1,0 +1,267 @@
+
+.featured-radio {
+  background: linear-gradient(101.25deg, #E06876 0%, #BA0D41 98.91%);
+  min-height: 770px;
+  margin: 5px 0;
+  overflow: auto;
+  width: 100%;
+}
+
+.featured-radio .menu-header {
+  height: 50px;
+  justify-content: space-between;
+  padding-left: 5px;
+  width: calc(100% - 5px);
+}
+
+.radio-wrapper {
+  min-height: 100px;
+  overflow: auto;
+  width: 100%;
+}
+
+.radio-item {
+  float: left;
+  height: 100px;
+  margin-bottom: 5px;
+  padding: 0 3px;
+  width: calc(33.33% - 6px);
+}
+
+.radio-item-wrapper {
+  background: linear-gradient(232.8deg, #CD384E -4.17%, #802A37 41.73%);
+  border-radius: 6px;
+  height: 100%;
+  width: 100%;
+}
+
+.radio-img-wrapper {
+  float: left;
+  height: 60px;
+  width: 70px;
+}
+
+.radio-img-wrapper img {
+  border-radius: 2px;
+  height: auto;
+  width: 45px;
+}
+
+.radio-name {
+  align-items: flex-start;
+  float: left;
+  height: 60px;
+  width: calc(100% - 70px);
+}
+
+.radio-name a {
+  padding-left: 5px;
+  text-decoration: none;
+}
+
+.radio-name a h2 {
+  color: #00DBE9;
+  letter-spacing: -0.04em;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 230px;
+  text-overflow: ellipsis;
+}
+
+.radio-name a h2:hover {
+  text-decoration: underline;
+}
+
+.radio-name a h2:active {
+  transform: scale(0.87);
+  transition: all 0.15s ease-in;
+}
+
+.location {
+  color: #FFC2C2;
+  flex-direction: row;
+}
+
+.location span {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 210px;
+}
+
+
+.radio-listen {
+  background: #A1525F;
+  border-radius: 0 0 6px 6px;
+  flex-direction: row;
+  height: 35px;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+.listen-btn-wrapper {
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 150px;
+}
+
+.listen-btn-wrapper span {
+  color: #FAD5D5;
+  padding-left: 10px;
+  transition: all 0.15s ease-in;
+}
+
+.listen-btn-wrapper img {
+  height: 34px;
+  transition: all 0.15s ease-in;
+  width: 34px;
+}
+
+.like img {
+  height: 37px;
+  margin-top: 5px;
+  padding-right: 10px;
+  width: 37px;
+}
+
+.like img:hover, .listen-btn-wrapper:hover {
+  cursor: pointer;
+  transition: all 0.15s ease-in;
+}
+
+.listen-btn-wrapper:hover span{
+  color: #00DBE9;
+  transition: all 0.15s ease-in;
+}
+
+.listen-btn-wrapper:hover img {
+  margin-left: 5px;
+  transition: all 0.15s ease-in;
+}
+
+.like img:active {
+  transform: scale(1.5);
+  transition: all 0.1s ease-in;
+}
+
+.like img:hover{
+  opacity: 0.8;
+  transition: all 0.1s ease-in;
+}
+
+@media (max-width: 1268px) {
+  .radio-name a h2 {
+    width: 210px;
+  }
+}
+
+@media (max-width: 1168px) {
+  .featured-radio {
+    min-height: 720px;
+  }
+  .radio-name a h2 {
+    width: 180px;
+  }
+  .location span {
+    width: 165px;
+  }
+}
+
+@media (max-width: 1068px) {
+  .featured-radio {
+    min-height: 710px;
+  }
+  .radio-item {
+    height: 95px;
+  }
+  .radio-img-wrapper {
+    width: 60px;
+  }
+  .radio-img-wrapper img {
+    width: 35px;
+  }
+  .radio-listen {
+    height: 30px;
+  }
+  .listen-btn-wrapper img, .like img {
+    width: 32px;
+    height: 32px;
+  }
+  .radio-name a h2 {
+    width: 170px;
+  }
+  .location span {
+    width: 155px;
+  }
+}
+
+@media (max-width: 968px) {
+  .featured-radio {
+    min-height: 740px;
+  }
+  .radio-item {
+    width: calc(50% - 6px);
+  }
+  .radio-name a h2 {
+    width: 220px;
+  }
+  .location span {
+    width: 205px;
+  }
+}
+
+@media (max-width: 868px) {
+  .featured-radio {
+    min-height: 670px;
+  }
+  .radio-name a h2 {
+    width: 190px;
+  }
+  .location span {
+    width: 175px;
+  }
+}
+
+@media (max-width: 768px) {
+  .featured-radio {
+    min-height: calc(100vh - 200px);
+  }
+  .radio-wrapper {
+    min-height: 100px;
+  }
+  .radio-name a h2 {
+    width: 240px;
+  }
+  .location span {
+    width: 225px;
+  }
+}
+
+@media (max-width: 668px) {
+  .radio-name a h2 {
+    width: 200px;
+  }
+  .location span {
+    width: 185px;
+  }
+}
+
+@media (max-width: 568px) {
+  .radio-name a h2 {
+    width: 165px;
+  }
+  .location span {
+    width: 150px;
+  }
+}
+@media (max-width: 500px) {
+  .radio-item {
+    width: calc(100% - 6px);
+  }
+  .radio-name a h2 {
+    width: 225px;
+  }
+  .location span {
+    width: 210px;
+  }
+}

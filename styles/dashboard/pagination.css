@@ -1,0 +1,79 @@
+
+
+.pagination-display {
+  height: 120px;
+  width: 100%;
+}
+
+.pagination-display ul {
+  align-items: center;
+  display: flex;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 400;
+  height: 100%;
+  justify-content: center;
+  list-style: none;
+  outline: none;
+  width: 100%;
+}
+
+.pagination > .active > a{
+  background-color: #47ccde ;
+  border-color: #47ccde ;
+  color: #BA0D41;
+}
+.pagination > li > a{
+  cursor: pointer;
+  border-top: 1px solid #FFC2C2;
+  border-bottom: 1px solid #FFC2C2;
+  border-left: 1px solid #FFC2C2;
+  outline: none;
+  padding: 5px 10px;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+  background-color: #FFC2C2;
+  border-color: #FFC2C2;
+  outline: none ;
+}
+.pagination > li > a, .pagination > li > span{
+  color: #00DBE9;
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+  border-radius: unset
+}
+
+.pagination > li:first-child > a {
+  border-radius: 4px 0 0 4px;
+}
+
+.pagination > li:last-child > a {
+  border-radius: 0 4px 4px 0;
+  border-right: 1px solid #FFC2C2;
+}
+
+.disabled a{
+  color: #00DBE9 !important
+}
+
+
+@media (max-width: 568px) {
+  .pagination>li>a {
+    font-size: 0.93em;
+    padding: 3px 7px;
+  }
+}
+
+@media (max-width: 468px) {
+  .pagination>li>a {
+    font-size: 0.89em;
+    padding: 3px 5px;
+  }
+}
+
+@media (max-width: 368px) {
+  .pagination>li>a {
+    font-size: 0.85em;
+    padding: 3px 3px;
+  }
+}

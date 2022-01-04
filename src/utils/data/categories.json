@@ -1,0 +1,44 @@
+{
+  "categories": [
+    {
+      "name": "Charts and Classics",
+      "lists": ["top 100", "top 40", "2000s", "00s", "90s", "80s", "70s", "60s", "50s"]
+    },
+    {
+      "name": "Rock Radios",
+      "lists": ["classic rock", "alternative", "metal", "indie rock", "alternative rock", "hard rock", "pop rock", "heavy metal", "rock"]
+    }, 
+    {
+      "name": "Christian Music",
+      "lists": [ "christian", "religion", "catholic", "religious", "gospel", "christmas music", "christian contemporary", "bible" ]
+    },
+    {
+      "name": "Chill Sounds",
+      "lists": ["easy listening", "lounge", "house", "chillout", "relax", "deep house", "downtempo", "club" ]
+    },
+    {
+      "name": "Community Stations",
+      "lists":["talk", "community radio", "public radio", "regional mexican", "black", "local music", "urban contemporary", "local radio", "culture"]
+    },
+    {
+      "name": "Dance Radios",
+      "lists": ["dance", "party", "salsa", "disco", "electro", "electronica", "eclectic", "latin", "eurodance", "brazilian music", "italo disco"]
+   },
+   {
+     "name": "Education Stations",
+     "lists": ["university radio", "college radio", "student radio"]
+   }, 
+   {
+      "name": "Adult Radios",
+      "lists": ["adult contemporary", "hot adult contemporary", "adult album alternative", "adult hits", "non-commercial"]
+    },
+    {
+      "name": "International Music",
+      "lists": ["indie", "greek", "international", "world music", "regional mexican","latin", "spanish", "japanese", "italo disco", "brazilian music"]
+    },
+    {
+      "name": "Family",
+      "lists": ["children", "abc", "lounge", "kids", "kids", "christmas music", "entertainment" ]
+    }    
+  ]
+}

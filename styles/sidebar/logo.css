@@ -1,0 +1,43 @@
+
+.logo {
+  background: radial-gradient(50% 50% at 50% 50%, rgba(180, 87, 119, 0.86) 0%, rgba(169, 77, 108, 0.86) 53.12%, rgba(124, 36, 66, 0.86) 100%);
+  height: 296px;
+  width: 100%;
+}
+
+@media (max-width: 1168px) {
+  .logo {
+    height: 246px;
+  }
+  .logo a img {
+    height: auto;
+    width: 150px;
+  }
+}
+
+@media (max-width: 1068px) {
+  .logo {
+    height: 226px;
+  }
+  .logo a img {
+    width: 130px;
+  }
+}
+
+@media (max-width: 968px) {
+  .logo {
+    height: 246px;
+  }
+  .logo a img {
+    width: 140px;
+  }
+}
+
+@media (max-width: 868px) {
+  .logo {
+    height: 226px;
+  }
+  .logo a img {
+    width: 130px;
+  }
+}
