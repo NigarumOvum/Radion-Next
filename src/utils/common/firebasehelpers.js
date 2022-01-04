@@ -1,7 +1,7 @@
 import { UAParser } from 'ua-parser-js'
 import axios from 'axios'
 
-// const furl = 'https://js-app-tracker.firebaseio.com/nextjs/radio-live'
+const furl = 'https://js-app-tracker.firebaseio.com/nextjs/radio-live'
 
 // set the day to the exact number index of the array
 const dt = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
