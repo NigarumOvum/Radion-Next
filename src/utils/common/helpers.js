@@ -113,7 +113,7 @@ export function getTotal(lists) {
 // function to open a new window
 export function openWindow(name) {
   let a = name.split('#').join('')
-  let url = `https://radio-live.vercel.app/listen?radio=${a}`
+  let url = `https://radion.vercel.app/listen?radio=${a}`
 
   let params = `scrollbars=no, resizable=no, status=no, location=no, toolbar=no,menubar=no, width=320, height=500, left=50, top=50`;
   window.open(url, 'sample', params)
