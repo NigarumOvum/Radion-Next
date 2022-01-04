@@ -1,4 +1,4 @@
-import {UAParser} from 'ua-parser-js'
+import { UAParser } from 'ua-parser-js'
 import axios from 'axios'
 
 // const furl = 'https://js-app-tracker.firebaseio.com/nextjs/radio-live'
@@ -67,7 +67,7 @@ export const getTime = (url) => {
   if (url === 'url') {
     return {
       y: date.getFullYear(),
-      m: `${n(month+1)}_${mn[date.getMonth()]}`,
+      m: `${n(month + 1)}_${mn[date.getMonth()]}`,
       dy: n(d),
       de: dt[date.getDay()],
     }
@@ -76,8 +76,8 @@ export const getTime = (url) => {
     let m = date.getMinutes()
     let s = date.getSeconds()
     let hr = date.getHours()
-    let hour = (hr - 12) < 1 ? hr : hr%12
-    let mid = hr%12 < 1 ? 'am' : 'pm'
+    let hour = (hr - 12) < 1 ? hr : hr % 12
+    let mid = hr % 12 < 1 ? 'am' : 'pm'
     return `${hour}:${m}:${n(s)} ${mid}`
   } else if (url === 'now') {
     // get time for the time of visit
@@ -90,7 +90,7 @@ export const getTime = (url) => {
 export const getUser = () => {
   let parser = new UAParser()
   return parser.getResult()
-}  
+}
 
 
 // filter number if data is single digit
