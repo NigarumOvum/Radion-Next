@@ -21,7 +21,7 @@ function Footer() {
       <div className='content-center footer-icons'>
         {icons}
       </div>
-      <span className='text-2 font-6'>&#9400; Aiman Adlawan 2020</span>
+      <span className='text-2 font-6'>&#9400; Brealy Padron R 2021</span>
     </footer>
   )
 }
